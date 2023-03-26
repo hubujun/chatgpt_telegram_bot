@@ -15,7 +15,6 @@ RUN mkdir -p /code
 ADD . /code
 WORKDIR /code
 
-EXPOSE 8080
 RUN pip3 install -r requirements.txt
 
 CMD ["bash"]
